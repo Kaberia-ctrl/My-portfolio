@@ -13,7 +13,7 @@ This is a personal portfolio website developed using HTML and CSS. It showcases 
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript (optional)
+- JavaScript
 
 ## Project Structure
 ```
