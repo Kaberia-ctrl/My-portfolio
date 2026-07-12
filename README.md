@@ -1,8 +1,5 @@
 # My portfolio
 
-<<<<<<< HEAD
-
->>>>>>> 2df7add912ed6a3a3f56dc36619a823f5414498d
 ## Description
 This is a personal portfolio website developed using HTML and CSS. It showcases my skills, projects, and contact information.
 
