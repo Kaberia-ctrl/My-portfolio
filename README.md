@@ -27,8 +27,8 @@ My portfolio/
 │
 projects/
 │
-├── workstation-setup/
-│   ├── workstation-setup.bat
+├── Windows-IT-Suport-Toolkit/
+│   ├── setup.bat
 │   ├── README.md
 │   ├── screenshots/
 │   │   ├── script-running.png
