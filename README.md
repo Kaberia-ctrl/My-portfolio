@@ -25,17 +25,19 @@ My portfolio/
 ├── js/
 │   └── script.js
 │
-projects/
+Windows-IT-Support-Toolkit/
 │
-├── workstation-setup/
-│   ├── workstation-setup.bat
-│   ├── README.md
-│   ├── screenshots/
-│   │   ├── script-running.png
-│   │   ├── windows-update.png
-│   │   └── log-file.png
-│   └── assets/
-└── README.md
+├── README.md
+├── launcher.bat
+├── setup.bat
+│
+├── modules/
+│   └── workstation-setup.bat
+│
+├── logs/
+├── reports/
+├── screenshots/
+└── assets/
 ```
 
 ## Installation
