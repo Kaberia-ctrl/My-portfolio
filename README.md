@@ -26,7 +26,7 @@ portfolio/
 │   └── script.js
 ├── images/
 │
-├── Windows setup/
+├── Windows Setup/
 │   ├── README.md
 │   ├── launcher.bat
 │   ├── setup.bat
