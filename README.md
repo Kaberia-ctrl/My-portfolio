@@ -17,27 +17,27 @@ This is a personal portfolio website developed using HTML and CSS. It showcases 
 
 ## Portfolio Structure
 ```
-My portfolio/
+My-portfolio/
 │
 ├── index.html
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
+├── images/
 │
-Windows-IT-Support-Toolkit/
+├── projects/
+│   └── Windows-IT-Support-Toolkit/
+│       ├── README.md
+│       ├── launcher.bat
+│       ├── setup.bat
+│       ├── modules/
+│       ├── logs/
+│       ├── reports/
+│       ├── screenshots/
+│       └── assets/
 │
-├── README.md
-├── launcher.bat
-├── setup.bat
-│
-├── modules/
-│   └── workstation-setup.bat
-│
-├── logs/
-├── reports/
-├── screenshots/
-└── assets/
+└── README.md
 ```
 
 ## Installation
@@ -60,7 +60,7 @@ Browse the website to view my profile, skills and projects.
 **Victor Kamau Kaberia**
 
 - GitHub: https://github.com/kaberia-ctrl
-- Email: kaberiavk@gmail.com
+- Email: https://kaberiavk@gmail.com
 - Linkedin: https://linkedin.com/in/kaberiavk
 
 ## License
