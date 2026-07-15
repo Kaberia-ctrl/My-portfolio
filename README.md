@@ -30,13 +30,44 @@ My-portfolio/
 │   └── Windows-IT-Support-Toolkit/
 │       ├── README.md
 │       ├── launcher.bat
-│       ├── setup.bat
-│       ├── modules/
+|       ├── launcher.ps1
+│       ├── Batch/
+|       |    └── setup/
+│       |        ├── README.md
+|       |        └── setup.bat
+│       |    └── maintenance/
+│       |        ├── README.md
+|       |        └── maintenance.bat
+|       |    └── network-test/
+│       |        ├── README.md
+|       |        └── test.bat
+|       |
+│       ├── Powershell/
+|       |    └── setup/
+│       |        ├── README.md
+|       |        └── setup.ps1
+│       |    └── maintenance/
+│       |        ├── README.md
+|       |        └── maintenance.ps1
+|       |    └── network-test/
+│       |        ├── README.md
+|       |        └── test.ps1
+|       |
 │       ├── logs/
 │       ├── reports/
 │       ├── screenshots/
 │       └── assets/
-│
+|       |
+│── TechSupport Pro/
+│       ├── index.html
+│       ├── css/
+│       |   └── style.css
+│       ├── js/
+│       |   └── script.js
+│       ├── screenshots/
+│       └── assets/
+│       └── README.md
+|       
 └── README.md
 ```
 
@@ -53,6 +84,8 @@ Browse the website to view my profile, skills and projects.
 
 ## Future Improvements
 - Add a dark mode
+- Add a website
+- Add a ticketing system
 - Include project filtering
 - Integrate a contact form
 
