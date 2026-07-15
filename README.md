@@ -31,25 +31,25 @@ My-portfolio/
 │       ├── README.md
 │       ├── launcher.bat
 |       ├── launcher.ps1
-│       ├── Batch/
-|       |    └── setup/
+│       ├── Batch-toolkit/
+|       |    └── PC setup/
 │       |        ├── README.md
 |       |        └── setup.bat
-│       |    └── maintenance/
+│       |    └── PC maintenance/
 │       |        ├── README.md
 |       |        └── maintenance.bat
-|       |    └── network-test/
+|       |    └── Network-test/
 │       |        ├── README.md
 |       |        └── test.bat
 |       |
-│       ├── Powershell/
-|       |    └── setup/
+│       ├── Powershell-toolkit/
+|       |    └── PC setup/
 │       |        ├── README.md
 |       |        └── setup.ps1
-│       |    └── maintenance/
+│       |    └── PC maintenance/
 │       |        ├── README.md
 |       |        └── maintenance.ps1
-|       |    └── network-test/
+|       |    └── Network-test/
 │       |        ├── README.md
 |       |        └── test.ps1
 |       |
