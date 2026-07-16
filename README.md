@@ -29,28 +29,34 @@ My-portfolio/
 ├── projects/
 │   └── Windows-IT-Support-Toolkit/
 │       ├── README.md
-│       ├── launcher.bat
-|       ├── launcher.ps1
+│       ├── setup.bat
+|       ├── setup.ps1
 |       |
 │       ├── Batch-toolkit/
 |       |    └── PC setup/
 │       |        ├── README.md
 |       |        └── setup.bat
-│       |    └── PC maintenance/
+│       |    └── Maintenance/
 │       |        ├── README.md
 |       |        └── maintenance.bat
-|       |    └── Network-test/
+|       |    └── Diagnostics/
+│       |        ├── README.md
+|       |        └── diag.bat
+|       |    └── Network/
 │       |        ├── README.md
 |       |        └── test.bat
+|       |    └── Security/
+│       |        ├── README.md
+|       |        └── sec.bat
 |       |
 │       ├── Powershell-toolkit/
 |       |    └── PC setup/
 │       |        ├── README.md
 |       |        └── setup.ps1
-│       |    └── PC maintenance/
+│       |    └── Maintenance/
 │       |        ├── README.md
 |       |        └── maintenance.ps1
-|       |    └── Network-test/
+|       |    └── Network/
 │       |        ├── README.md
 |       |        └── test.ps1
 |       |
