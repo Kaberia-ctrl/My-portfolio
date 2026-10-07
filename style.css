@@ -1,14 +1,16 @@
 body{
-  background:  #565555;
+  background:  #0b0b0b;
+  color: rgb(190, 190, 190);
 }
 header {
-      background: linear-gradient(to right, #565555, #605e5ee1);
+      background: linear-gradient(45deg, #43404091, #343333e1);
       padding: 20px;
-      color: rgb(19, 18, 18);
+      color: rgb(244, 243, 243);
       text-align: left;
       font-size: 18px;
       margin: 0rem;
       font-family: 'Times New Roman', Times, serif;
+      animation: show 3s ease forwards;
       h1{ 
         animation: slide 2.5s ease-in-out forwards;
       }
@@ -38,105 +40,124 @@ header {
        opacity: 100%; 
       }
 }
+@keyframes slidein {
+      from {
+        transform: translateX(60%);
+        opacity: 0%;
+      }
+      to {
+        transform: translateX(0);
+        opacity: 100%;
+      }
+}
+@keyframes pop{
+      from {
+        opacity: 50%;
+      }
+      to {
+        opacity: 100%;
+      }
+}
 
 .profile{
   text-align: center;
   font-size: 30px;
   animation: show 3s ease-in forwards;
 }
- h2{
+h2{
+  animation: slidein 3s ease forwards;
+  text-align: right;
+  margin: 0.3rem;
+  font-size: 35px;
+}
+.description{
+  font-size: 20px;
+  text-align: right;
+  margin: 1rem;
+  line-height: 1.5;
+}
+h3{
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+.desc{
+  font-size: 20px;
+  text-align: left;
+  margin: 1rem;
+  line-height: 1.5;
+}
+.skills{
+  text-align: right;
+  justify-content: right;
+  font-size: 25px;
+  margin: 0.3rem;
   animation: slide 3s ease forwards;
 }
-
+.skills ul{
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 2;
+}
 
 .portfolio-btn {
     background: #f5efef;
     border-radius: 5px;
     padding: 5px;
-    transition: 3s ease-in-out;
     cursor: pointer;
-    }
-
-    .portfolio-btn:hover {
-    transform: translateY(-18px);
-    transition: 3s ease-in-out;
+    transition: 2s ease;
+    text-align: right;
+}
+.portfolio-btn:hover {
+    transform: translateY(-100px);
+    transition: 3s ease-in-out forwards;
     box-shadow: 0 5px 10px rgba(0,0,0,.5);
-    }
-    
-    section {
-      margin: 0.5px auto;
-      padding: 30px;
-    }
+}
 
-    .section-card{
-      padding: 20px;
-      border-radius: 0px;
-      box-shadow: 0 2px 5px rgba(183, 15, 15, 0.1);
-    }
-      
-    
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-  
-    .about{
+.port{
+      margin-top: 1rem;
+      margin-bottom: 3rem;
       padding: 10px;
-
-      h2{
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 50px;
-      }
-     }
-
-
-
-    .projectcard {
+}
+ul{
+  line-height: 1.5;
+  font-size: 17px;
+}
+h5{
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 50px;
+  animation: show 3s ease-in forwards;
+}
+.toolkit {
     background: #f5efef;
     border-radius: 12px;
     padding: 25px;
-    transition: 0.3s ease;
-    cursor: pointer;
-    }
-
-    .project-link {
-    text-decoration: none;
-    color: inherit;
+    animation: pop 3s ease-in forwards;
+    color:rgb(67, 64, 60)
+}    
+h6{
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
-
-    
-.project-card {
-    background: #fff;
+.ticketing {
+    background: #f5efef;
+    color: rgb(67, 64, 60);
     border-radius: 12px;
     padding: 25px;
     transition: 0.3s ease;
     cursor: pointer;
+    margin-bottom: 3rem;
+    animation: pop 3s ease-in forwards;
 }
-
-.project-card:hover {
+.ticketing:hover {
     transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0,0,0,.15);
+    box-shadow: 0 15px 30px rgba(252, 251, 251, 0.15);
 }
     
-    footer {
+footer {
       text-align: center;
-      padding: 20px;
-      background: #333;
       color: white;
-      margin-top: 30px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background: #333;
-      color: white;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-    }
-
-    button:hover {
-      background: #555;
-    }
+      margin-top: 180px;
+}
