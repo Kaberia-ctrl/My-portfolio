@@ -1,40 +1,56 @@
-    body {
-      margin: 0rem;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.5;
-      background: #d1e8ee;
-      cursor: pointer;
-    }
-
-    header {
-      background-image: url(background.png);
-      color: rgb(0, 0, 0);
-      text-align: right;
-      padding: 2rem;
+body{
+  background:  #565555;
+}
+header {
+      background: linear-gradient(to right, #565555, #605e5ee1);
+      padding: 20px;
+      color: rgb(19, 18, 18);
+      text-align: left;
       font-size: 18px;
+      margin: 0rem;
       font-family: 'Times New Roman', Times, serif;
-    }
+      h1{ 
+        animation: slide 2.5s ease-in-out forwards;
+      }
+      .line1{
+        animation: slide 3s ease-in-out forwards;
+      }
+      .line2{     
+        animation: slide 3.5s ease-in-out forwards;
+      }
+}
 
-    @keyframes drop{
-      0%{}
-      70%{ transform: translateY{700px}};
-      100%{ transform: translateY{650px}};
-    }
-
-    @keyframes slideIn {
+@keyframes slide {
       from {
-        transform: translateX(100%);
-        opacity: 0;
+        transform: translateX(-60%);
+        opacity: 0%;
       }
       to {
-        transform: translateY(0);
-        opacity: 1;
+        transform: translateX(0);
+        opacity: 100%;
       }
-    }
+}
+@keyframes show {
+      from {
+       opacity: 0%;
+      }
+       to {
+       opacity: 100%; 
+      }
+}
 
-    .portfolio-btn {
-    background: #fff;
+.profile{
+  text-align: center;
+  font-size: 30px;
+  animation: show 3s ease-in forwards;
+}
+ h2{
+  animation: slide 3s ease forwards;
+}
+
+
+.portfolio-btn {
+    background: #f5efef;
     border-radius: 5px;
     padding: 5px;
     transition: 3s ease-in-out;
@@ -50,25 +66,12 @@
     section {
       margin: 0.5px auto;
       padding: 30px;
-      background: rgb(208, 231, 234);
-      animation: fadeIn 3s ease-in-out;
-    }
-
-        @keyframes fadeIn {
-      from {
-        opacity: 4m,0%;
-      }
-      to {
-        opacity: 100%;
-      }
     }
 
     .section-card{
-      background: rgb(208, 231, 234);
       padding: 20px;
       border-radius: 0px;
       box-shadow: 0 2px 5px rgba(183, 15, 15, 0.1);
-      animation: slideIn 3s ease-in-out;
     }
       
     
@@ -80,10 +83,7 @@
   
     .about{
       padding: 10px;
-      background: #c8e2e5;
-      transform: translateY(60px);
-      animation: SlideUp 3s ease-in-out forwards;
-      opacity: 0%;
+
       h2{
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
@@ -91,19 +91,10 @@
       }
      }
 
-     @keyframes SlideUp {
-      from {
-        transform: translateY(60px);
-        opacity: 0%;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 100%;
-      }
-     }
+
 
     .projectcard {
-    background: #fff;
+    background: #f5efef;
     border-radius: 12px;
     padding: 25px;
     transition: 0.3s ease;
